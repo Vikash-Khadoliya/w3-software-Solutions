@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 120px;
+}
+
+.hero {
+    background-color: rgb(94, 61, 194);
+    height: 80vh;
+
+}
+
+.hero-txt h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-txt p {
+    color: #ddd;
+}
