@@ -10,7 +10,7 @@ section {
 }
 
 .hero {
-    background-color: rgb(94, 61, 194);
+    background: linear-gradient(rgb(94, 61, 194), rgba(94, 61, 194));
     height: 80vh;
 
 }
@@ -23,4 +23,13 @@ section {
 
 .hero-txt p {
     color: #ddd;
+}
+
+.hero-img {
+    width: 400px;
+}
+
+.hero-img img {
+    display: block;
+    width: 100%;
 }

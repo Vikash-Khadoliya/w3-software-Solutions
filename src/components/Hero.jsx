@@ -1,3 +1,4 @@
+import HeroImg from '..//assets/hero-img.png'
 
 export default function Hero() {
 
@@ -6,11 +7,11 @@ export default function Hero() {
 
             <section className="hero " id="hero">
 
-                <div className="hero-content border row">
+                <div className="hero-content">
 
 
 
-                    <div className="hero-txt col-md-6">
+                    <div className="hero-txt">
                         <h1>Better Solutions For Your Business</h1>
                         <p>We are team of talented designers making websites with Bootstrap</p>
 
@@ -20,8 +21,10 @@ export default function Hero() {
 
                     </div>
 
-                    <div className="hero-img col-md-6">
-                        asd
+                    <div className="hero-img">
+
+                        <img src={HeroImg} alt="" />
+
                     </div>
 
                 </div>
