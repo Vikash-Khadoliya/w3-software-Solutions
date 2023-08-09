@@ -14,7 +14,7 @@ section {
 .navigation {
     padding: 20px 100px;
     width: 100%;
-    background: none;
+    background: inherit;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,6 +31,12 @@ section {
     margin: 0 1rem;
     text-decoration: none;
     cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.navlist>a:hover,
+.navlist-dropdown:hover>a {
+    color: rgb(99, 181, 253) !important;
 }
 
 .navlist-btn a {
@@ -44,6 +50,58 @@ section {
 .navlist-btn a:hover {
     background-color: rgb(8, 138, 252);
 }
+
+.navlist-dropdown {
+    position: relative;
+}
+
+.deep-dropdown {
+    position: relative;
+}
+
+.dropdown-content,
+.deep-dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    padding: 16px 0;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.dropdown-content a {
+    color: #222 !important;
+    font-weight: 200;
+    display: block;
+    padding: 7px 0;
+    transition: .1s ease;
+
+}
+
+.dropdown-content a:hover {
+    font-weight: 400;
+}
+
+.navlist-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.deep-dropdown>a i {
+    float: right;
+    margin-top: 3px;
+}
+
+.deep-dropdown-content {
+    display: none;
+    left: 210px;
+    top: 0;
+}
+
+.deep-dropdown:hover .deep-dropdown-content {
+    display: block;
+}
+
 
 /*hero section design*/
 
