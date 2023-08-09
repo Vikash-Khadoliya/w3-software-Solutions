@@ -184,8 +184,12 @@ section {
     color: rgb(8, 138, 252);
 }
 
-/* 
-@media screen and (max-width: 1025px) {
+
+@media screen and (max-width: 1200px) {
+
+    .hero {
+        height: 100vh;
+    }
 
     .hero-img {
         width: 400px;
@@ -194,7 +198,7 @@ section {
     .hero-content {
         flex-direction: column-reverse;
     }
-} */
+}
 
 .hero-img {
     position: relative;
@@ -235,3 +239,85 @@ section {
 }
 
 /*about section design*/
+
+.about {
+    padding: 60px 100px;
+}
+
+.about-main {
+    text-align: center;
+}
+
+.about-main h2 {
+    position: relative;
+    font-weight: 700;
+    color: rgba(1, 82, 152);
+    display: inline;
+    padding: 13px 0;
+}
+
+.about-txt-content {
+    margin-top: 3rem;
+}
+
+.about-main h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 2px;
+}
+
+.about-main h2::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: rgba(1, 82, 152);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-txt-content p,
+.about-txt-content li {
+    color: #555;
+    font-weight: 400;
+}
+
+.about-txt-content ul {
+    padding: 0;
+    list-style: none;
+}
+
+.about-txt-content li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+
+.about-txt-content li i {
+    color: rgb(8, 138, 252);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.about-btn a {
+    display: inline-block;
+    border: 2px solid rgb(8, 138, 252);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 400;
+    transition: .3s ease-in;
+}
+
+.about-btn a:hover {
+    background-color: rgb(8, 138, 252);
+    color: #fff;
+}
+
+/*benefits section design*/

@@ -1,6 +1,8 @@
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Partners from "./components/Partners";
+import About from "./components/About";
+import Benefits from "./components/Benefits";
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
       <Navigation />
       <Hero />
       <Partners />
+      <About />
+      <Benefits />
     </>
   )
 }

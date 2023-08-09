@@ -15,7 +15,7 @@ export default function Navigation() {
                     <div className="navlist d-flex align-items-center">
 
                         <a href="#">Home</a>
-                        <a>About</a>
+                        <a href="#about">About</a>
                         <a>Services</a>
                         <a>Portfolio</a>
                         <a>Team</a>
