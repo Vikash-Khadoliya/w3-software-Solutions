@@ -7,7 +7,7 @@ export default function Hero() {
 
             <section className="hero " id="hero">
 
-                <div className="hero-content">
+                <div className="hero-content d-flex align-items-center">
 
 
 
@@ -15,7 +15,10 @@ export default function Hero() {
                         <h1>Better Solutions For Your Business</h1>
                         <p>We are team of talented designers making websites with Bootstrap</p>
 
-                        <div className="hero-btn">
+                        <div className="hero-btn d-flex align-items-center">
+
+                            <a href='#' className='get-started'>Get Started</a>
+                            <a href='#' className='watch-video'><i class='bx bx-play' ></i> Watch Video</a>
 
                         </div>
 

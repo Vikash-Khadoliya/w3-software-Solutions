@@ -6,30 +6,146 @@
 }
 
 section {
-    padding: 120px;
+    padding: 100px 100px;
+}
+
+/*navigation section design*/
+
+.navigation {
+    padding: 20px 100px;
+    width: 100%;
+    background: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+}
+
+.navlist a,
+.logo h2 {
+    color: #fff !important;
+}
+
+.navlist a {
+    font-weight: 300;
+    margin: 0 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navlist-btn a {
+    padding: 10px 13px;
+    border: 2px solid rgb(8, 138, 252);
+    font-weight: 500;
+    border-radius: 50px;
+    transition: .3s ease-in;
+}
+
+.navlist-btn a:hover {
+    background-color: rgb(8, 138, 252);
+}
+
+/*hero section design*/
+
+.hero {
+    padding: 0;
+}
+
+.hero-content {
+    position: relative;
+    padding: 120px 100px 30px;
 }
 
 .hero {
-    background: linear-gradient(rgb(94, 61, 194), rgba(94, 61, 194));
+    background: linear-gradient(to top, rgba(2, 106, 195), rgba(1, 82, 152));
     height: 80vh;
-
 }
+
 
 .hero-txt h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .hero-txt p {
-    color: #ddd;
-}
-
-.hero-img {
-    width: 400px;
+    color: #eee;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .hero-img img {
     display: block;
     width: 100%;
+}
+
+.hero-btn {
+    margin-top: 2rem;
+}
+
+.hero-btn a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 13px;
+    background-color: rgb(8, 138, 252);
+    box-shadow: -2px 2px 2px rgba(34, 34, 34, .3);
+    font-weight: 500;
+    border-radius: 50px;
+    transition: .3s ease-in;
+}
+
+.hero-btn a:hover:not(.watch-video) {
+    background-color: rgb(7, 121, 221);
+}
+
+.hero-btn .watch-video {
+    background-color: transparent;
+    box-shadow: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hero-btn .watch-video i {
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    margin-right: 7px;
+    transition: .3s ease-in;
+}
+
+
+.hero-btn .watch-video:hover i {
+    border-color: rgb(8, 138, 252);
+    color: rgb(8, 138, 252);
+}
+
+/* 
+@media screen and (max-width: 1025px) {
+
+    .hero-img {
+        width: 400px;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+    }
+} */
+
+.hero-img {
+    position: relative;
+    animation: imgAnimation 2s linear infinite alternate;
+}
+
+@keyframes imgAnimation {
+
+    0% {
+        transform: translateY(-13px);
+    }
+
+    100% {
+        transform: translateY(13px);
+    }
+
+
 }
