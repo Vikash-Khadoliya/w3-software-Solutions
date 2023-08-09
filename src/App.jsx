@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
+import Partners from "./components/Partners";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navigation />
       <Hero />
+      <Partners />
     </>
   )
 }

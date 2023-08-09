@@ -62,11 +62,16 @@ section {
 .dropdown-content,
 .deep-dropdown-content {
     position: absolute;
-    display: none;
+    opacity: 0;
     background-color: #fff;
     padding: 16px 0;
     border-radius: 3px;
     width: 200px;
+    transition: .5s ease;
+}
+
+.dropdown-content {
+    margin-top: 2rem;
 }
 
 .dropdown-content a {
@@ -83,7 +88,8 @@ section {
 }
 
 .navlist-dropdown:hover .dropdown-content {
-    display: block;
+    opacity: 1;
+    margin-top: 0;
 }
 
 
@@ -93,13 +99,13 @@ section {
 }
 
 .deep-dropdown-content {
-    display: none;
+    opacity: 0;
     left: 210px;
     top: 0;
 }
 
 .deep-dropdown:hover .deep-dropdown-content {
-    display: block;
+    opacity: 1;
 }
 
 
@@ -207,3 +213,25 @@ section {
 
 
 }
+
+/*partners section design*/
+
+.partners {
+    position: relative;
+    padding: 0 100px;
+    background: #f8f8f8;
+}
+
+
+.partner-logo img {
+    display: block;
+    width: 40%;
+    margin: 2rem auto;
+    filter: grayscale(1);
+}
+
+.partner-logo img:hover {
+    filter: grayscale(0);
+}
+
+/*about section design*/
