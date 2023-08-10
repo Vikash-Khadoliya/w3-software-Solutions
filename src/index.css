@@ -459,3 +459,98 @@ section {
 .skill-ratings .skill:nth-child(4) .skill-load::before {
     width: 80%;
 }
+
+/*services section design*/
+
+.services {
+    padding: 60px 100px;
+    background: #f8f8f8;
+}
+
+.services-main {
+    text-align: center;
+}
+
+.services-main h2 {
+    position: relative;
+    font-weight: 700;
+    color: rgba(1, 82, 152);
+    display: inline;
+    padding: 13px 0;
+}
+
+.services-txt-content {
+    margin-top: 3rem;
+}
+
+.services-main h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 2px;
+}
+
+.services-main h2::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: rgba(1, 82, 152);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service-txt {
+    margin: 3rem 0 2rem;
+    text-align: center;
+}
+
+.service-txt p {
+    color: #444;
+}
+
+.service {
+    padding: 10px;
+}
+
+.service-content {
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    padding: 2rem;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.service-content:hover {
+    transform: translateY(-5px);
+}
+
+.service-content:hover>p {
+    color: rgb(8, 138, 252);
+}
+
+.service-content i {
+    color: rgb(8, 138, 252);
+    font-size: 2.5rem;
+}
+
+.service-title {
+    margin-top: 10px;
+}
+
+.service-title h3 {
+    color: rgba(1, 82, 152);
+    font-size: 1.5rem;
+}
+
+.service-content p {
+    color: #444;
+    font-size: 14px;
+    transition: .3s ease-out;
+}
+
+/*cta section design*/

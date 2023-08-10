@@ -4,6 +4,7 @@ import Partners from "./components/Partners";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Skills from "./components/Skills";
+import Services from "./components/Services";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Benefits />
       <Skills />
+      <Services />
     </>
   )
 }
