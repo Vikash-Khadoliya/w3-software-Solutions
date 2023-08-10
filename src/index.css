@@ -321,3 +321,141 @@ section {
 }
 
 /*benefits section design*/
+
+.benefits {
+    background: #f8f8f8;
+    padding: 60px 100px;
+}
+
+.benefits-img img {
+    display: block;
+    width: 100%;
+}
+
+.benefits-txt h3 {
+    color: rgb(8, 138, 252);
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+
+.benefits-txt span {
+    font-weight: 600;
+    color: rgba(1, 82, 152);
+}
+
+.benefits-txt p {
+    color: #444;
+}
+
+
+.benefit-list-content {
+    background: #fff;
+    margin-bottom: 1rem;
+    height: 65px;
+    overflow: hidden;
+    transition: .3s ease-out;
+}
+
+.benefit-list-content-new {
+    transition: .3s ease-out;
+    background: #fff;
+    margin-bottom: 1rem;
+    height: 200px;
+}
+
+.benefit-list-header {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem;
+    color: #222;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.benefit-list-content-new .benefit-list-header {
+    color: rgb(8, 138, 252);
+}
+
+
+.benefit-list-header span {
+    color: rgb(8, 138, 252);
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.benefit-list-header i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.benefit-list-header:hover {
+    color: rgb(8, 138, 252);
+}
+
+.benefit-list-header:hover i {
+    color: rgb(8, 138, 252);
+}
+
+.benefit-list-body {
+    padding: 5px 2rem;
+}
+
+/*skills section design*/
+
+.skills-img img {
+    width: 100%;
+    display: block;
+}
+
+.skills-txt h3 {
+    color: rgb(8, 138, 252);
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+
+.skills-txt p {
+    color: #444;
+}
+
+.skill-txt {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(1, 82, 152);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.skill-load {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.skill-load::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 138, 252);
+}
+
+.skill-ratings .skill:nth-child(2) .skill-load::before {
+    width: 90%;
+}
+
+.skill-ratings .skill:nth-child(3) .skill-load::before {
+    width: 50%;
+}
+
+.skill-ratings .skill:nth-child(4) .skill-load::before {
+    width: 80%;
+}

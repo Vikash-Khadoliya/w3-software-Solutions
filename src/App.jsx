@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import Partners from "./components/Partners";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
+import Skills from "./components/Skills";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Partners />
       <About />
       <Benefits />
+      <Skills />
     </>
   )
 }
