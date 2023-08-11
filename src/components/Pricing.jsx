@@ -13,13 +13,13 @@ export default function Pricing() {
                         <h2>PRICING</h2>
                     </div>
 
-                    <div className="pricing-txt">
+                    <div className="main-txt">
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
 
                     <div className="pricing-list row">
 
-                        <div className="pricing-list-row col-lg-4">
+                        <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content">
                                 <h4>Free Plan</h4>
@@ -40,7 +40,7 @@ export default function Pricing() {
 
                         </div>
 
-                        <div className="pricing-list-row col-lg-4">
+                        <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content filter">
                                 <h4>Free Plan</h4>
@@ -61,7 +61,7 @@ export default function Pricing() {
 
                         </div>
 
-                        <div className="pricing-list-row col-lg-4">
+                        <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content">
                                 <h4>Free Plan</h4>

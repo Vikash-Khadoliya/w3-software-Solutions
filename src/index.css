@@ -44,6 +44,15 @@ section {
     transform: translateX(-50%);
 }
 
+.main-txt {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.main-txt p {
+    color: #444;
+}
+
 
 /*navigation section design*/
 
@@ -160,7 +169,6 @@ section {
     background: linear-gradient(to top, rgba(2, 106, 195), rgba(1, 82, 152));
     height: 80vh;
 }
-
 
 .hero-txt h1 {
     color: #fff;
@@ -464,19 +472,6 @@ section {
     background: #f8f8f8;
 }
 
-.services-txt-content {
-    margin-top: 3rem;
-}
-
-.service-txt {
-    margin: 3rem 0 2rem;
-    text-align: center;
-}
-
-.service-txt p {
-    color: #444;
-}
-
 .service {
     padding: 10px;
 }
@@ -570,12 +565,6 @@ section {
     margin-top: 3rem;
 }
 
-.team-txt-content p {
-    color: #555;
-    font-weight: 400;
-    text-align: center;
-}
-
 .team-list-row {
     padding: 10px;
 }
@@ -655,12 +644,6 @@ section {
 
 .pricing-txt {
     margin-top: 3rem;
-}
-
-.pricing-txt p {
-    color: #555;
-    font-weight: 400;
-    text-align: center;
 }
 
 .pricing-list-row {
@@ -750,14 +733,4 @@ section {
 
 .faq {
     background: #f8f8f8;
-}
-
-.faq-txt {
-    margin-top: 3rem;
-}
-
-.faq-txt p {
-    color: #555;
-    font-weight: 400;
-    text-align: center;
 }

@@ -5,11 +5,9 @@ export default function Hero() {
     return (
         <>
 
-            <section className="hero " id="hero">
+            <section className="hero" id="hero">
 
                 <div className="hero-content d-flex align-items-center">
-
-
 
                     <div className="hero-txt">
                         <h1>Better Solutions For Your Business</h1>

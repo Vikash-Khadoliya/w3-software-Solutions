@@ -14,29 +14,45 @@ export default function Partners() {
 
                 <div className="partners-content row">
 
-                    <div className="partner-logo col-sm-2 ">
-                        <img src={ClientOne} alt="" />
+                    <div className="col-lg-6">
+
+                        <div className="row">
+                            <div className="partner-logo col-sm-4 ">
+                                <img src={ClientOne} alt="" />
+                            </div>
+
+                            <div className="partner-logo col-sm-4">
+                                <img src={ClientTwo} alt="" />
+                            </div>
+
+                            <div className="partner-logo col-sm-4">
+                                <img src={ClientThree} alt="" />
+                            </div>
+                        </div>
+
+
                     </div>
 
-                    <div className="partner-logo col-sm-2">
-                        <img src={ClientTwo} alt="" />
+                    <div className="col-lg-6">
+
+                        <div className="row">
+                            <div className="partner-logo col-sm-4">
+                                <img src={ClientFour} alt="" />
+                            </div>
+
+                            <div className="partner-logo col-sm-4">
+                                <img src={ClientFive} alt="" />
+                            </div>
+
+                            <div className="partner-logo col-sm-4">
+                                <img src={ClientSix} alt="" />
+                            </div>
+                        </div>
+
+
                     </div>
 
-                    <div className="partner-logo col-sm-2">
-                        <img src={ClientThree} alt="" />
-                    </div>
 
-                    <div className="partner-logo col-sm-2">
-                        <img src={ClientFour} alt="" />
-                    </div>
-
-                    <div className="partner-logo col-sm-2">
-                        <img src={ClientFive} alt="" />
-                    </div>
-
-                    <div className="partner-logo col-sm-2">
-                        <img src={ClientSix} alt="" />
-                    </div>
 
                 </div>
 

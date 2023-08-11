@@ -10,14 +10,14 @@ export default function Skills() {
 
                 <div className="skills-content row">
 
-                    <div className="skills-img col-sm-6">
+                    <div className="skills-img col-lg-6">
 
                         <img src={SkillsImg} alt="" />
 
                     </div>
 
 
-                    <div className="skills-txt col-sm-6">
+                    <div className="skills-txt col-lg-6">
 
                         <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

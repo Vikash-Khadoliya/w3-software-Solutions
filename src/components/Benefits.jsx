@@ -39,7 +39,7 @@ export default function Benefits() {
                 <div className="benefits-content row">
 
 
-                    <div className="benefits-txt col-sm-6">
+                    <div className="benefits-txt col-xl-6">
                         <h3>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></h3>
                         <p className='par'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
 
@@ -62,7 +62,7 @@ export default function Benefits() {
 
                     </div>
 
-                    <div className="benefits-img col-sm-6">
+                    <div className="benefits-img col-xl-6">
                         <img src={BenefitsImg} alt="" />
                     </div>
 

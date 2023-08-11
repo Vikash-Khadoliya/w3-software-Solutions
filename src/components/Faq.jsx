@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Faq() {
 
-    const [open, setOpen] = useState(0);
+    const [open, setOpen] = useState(null);
 
     const items = [
         {
@@ -48,7 +48,7 @@ export default function Faq() {
                         <h2>FREQUENTLY ASKED QUESTIONS</h2>
                     </div>
 
-                    <div className="faq-txt">
+                    <div className="main-txt">
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
 
