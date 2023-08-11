@@ -11,6 +11,7 @@ import Team from "./components/Team";
 import Pricing from "./components/Pricing";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
+import NewsLetter from "./components/Newsletter";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <Pricing />
       <Faq />
       <Contact />
+      <NewsLetter />
     </>
   )
 }
