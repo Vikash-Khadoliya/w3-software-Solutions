@@ -9,7 +9,7 @@ export default function Services() {
 
                 <div className="services-content">
 
-                    <div className="services-main">
+                    <div className="main">
                         <h2>SERVICES</h2>
                     </div>
 

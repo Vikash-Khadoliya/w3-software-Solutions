@@ -9,7 +9,7 @@ export default function Pricing() {
 
                 <div className="pricing-content">
 
-                    <div className="pricing-main">
+                    <div className="main">
                         <h2>PRICING</h2>
                     </div>
 

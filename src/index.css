@@ -6,8 +6,44 @@
 }
 
 section {
-    padding: 100px 100px;
+    padding: 60px 100px;
 }
+
+/*main text section design*/
+
+.main {
+    text-align: center;
+}
+
+.main h2 {
+    position: relative;
+    font-weight: 700;
+    color: rgba(1, 82, 152);
+    padding: 13px 0;
+}
+
+.main h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 250px;
+    height: 2px;
+    background-color: #ddd;
+    transform: translateX(-50%);
+}
+
+.main h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(1, 82, 152);
+    transform: translateX(-50%);
+}
+
 
 /*navigation section design*/
 
@@ -240,45 +276,8 @@ section {
 
 /*about section design*/
 
-.about {
-    padding: 60px 100px;
-}
-
-.about-main {
-    text-align: center;
-}
-
-.about-main h2 {
-    position: relative;
-    font-weight: 700;
-    color: rgba(1, 82, 152);
-    display: inline;
-    padding: 13px 0;
-}
-
 .about-txt-content {
     margin-top: 3rem;
-}
-
-.about-main h2::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #ddd;
-    width: 100%;
-    height: 2px;
-}
-
-.about-main h2::after {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 2px;
-    background-color: rgba(1, 82, 152);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .about-txt-content p,
@@ -309,8 +308,8 @@ section {
     display: inline-block;
     border: 2px solid rgb(8, 138, 252);
     text-decoration: none;
-    border-radius: 8px;
-    padding: 10px 16px;
+    border-radius: 5px;
+    padding: 10px 2rem;
     font-weight: 400;
     transition: .3s ease-in;
 }
@@ -324,7 +323,6 @@ section {
 
 .benefits {
     background: #f8f8f8;
-    padding: 60px 100px;
 }
 
 .benefits-img img {
@@ -463,45 +461,11 @@ section {
 /*services section design*/
 
 .services {
-    padding: 60px 100px;
     background: #f8f8f8;
-}
-
-.services-main {
-    text-align: center;
-}
-
-.services-main h2 {
-    position: relative;
-    font-weight: 700;
-    color: rgba(1, 82, 152);
-    display: inline;
-    padding: 13px 0;
 }
 
 .services-txt-content {
     margin-top: 3rem;
-}
-
-.services-main h2::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #ddd;
-    width: 100%;
-    height: 2px;
-}
-
-.services-main h2::after {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 2px;
-    background-color: rgba(1, 82, 152);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .service-txt {
@@ -599,45 +563,11 @@ section {
 /*team section design*/
 
 .team {
-    padding: 60px 100px;
     background: #f8f8f8;
-}
-
-.team-main {
-    text-align: center;
-}
-
-.team-main h2 {
-    position: relative;
-    font-weight: 700;
-    color: rgba(1, 82, 152);
-    display: inline;
-    padding: 13px 0;
 }
 
 .team-txt {
     margin-top: 3rem;
-}
-
-.team-main h2::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #ddd;
-    width: 100%;
-    height: 2px;
-}
-
-.team-main h2::after {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 2px;
-    background-color: rgba(1, 82, 152);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .team-txt-content p {
@@ -723,45 +653,8 @@ section {
 
 /*pricing section design*/
 
-.pricing {
-    padding: 60px 100px;
-}
-
-.pricing-main {
-    text-align: center;
-}
-
-.pricing-main h2 {
-    position: relative;
-    font-weight: 700;
-    color: rgba(1, 82, 152);
-    display: inline;
-    padding: 13px 0;
-}
-
 .pricing-txt {
     margin-top: 3rem;
-}
-
-.pricing-main h2::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #ddd;
-    width: 100%;
-    height: 2px;
-}
-
-.pricing-main h2::after {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 2px;
-    background-color: rgba(1, 82, 152);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .pricing-txt p {
@@ -851,4 +744,20 @@ section {
 .price-list-content .btn:hover:not(.filter a) {
     background-color: rgb(8, 138, 252);
     color: #fff;
+}
+
+/*faq section design*/
+
+.faq {
+    background: #f8f8f8;
+}
+
+.faq-txt {
+    margin-top: 3rem;
+}
+
+.faq-txt p {
+    color: #555;
+    font-weight: 400;
+    text-align: center;
 }

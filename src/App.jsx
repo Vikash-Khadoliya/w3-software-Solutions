@@ -9,6 +9,7 @@ import Cta from "./components/Cta";
 import Portfolio from "./components/Portfolio";
 import Team from "./components/Team";
 import Pricing from "./components/Pricing";
+import Faq from "./components/Faq";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       {/* <Portfolio /> */}
       <Team />
       <Pricing />
+      <Faq />
     </>
   )
 }

@@ -12,7 +12,7 @@ export default function Team() {
 
                 <div className="team-content">
 
-                    <div className="team-main">
+                    <div className="main">
                         <h2>TEAM</h2>
                     </div>
 
