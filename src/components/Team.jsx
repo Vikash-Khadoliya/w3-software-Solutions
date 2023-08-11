@@ -36,10 +36,10 @@ export default function Team() {
                                     <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
 
                                     <div className="team-social-links">
-                                        <a href=""><i class='bx bxl-twitter'></i></a>
-                                        <a href=""><i class='bx bxl-facebook' ></i></a>
-                                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                                        <a href=""><i className='bx bxl-twitter'></i></a>
+                                        <a href=""><i className='bx bxl-facebook' ></i></a>
+                                        <a href=""><i className='bx bxl-instagram-alt' ></i></a>
+                                        <a href=""><i className='bx bxl-linkedin-square' ></i></a>
                                     </div>
 
                                 </div>
@@ -57,10 +57,10 @@ export default function Team() {
                                     <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
 
                                     <div className="team-social-links">
-                                        <a href=""><i class='bx bxl-twitter'></i></a>
-                                        <a href=""><i class='bx bxl-facebook' ></i></a>
-                                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                                        <a href=""><i className='bx bxl-twitter'></i></a>
+                                        <a href=""><i className='bx bxl-facebook' ></i></a>
+                                        <a href=""><i className='bx bxl-instagram-alt' ></i></a>
+                                        <a href=""><i className='bx bxl-linkedin-square' ></i></a>
                                     </div>
 
                                 </div>
@@ -81,10 +81,10 @@ export default function Team() {
                                     <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
 
                                     <div className="team-social-links">
-                                        <a href=""><i class='bx bxl-twitter'></i></a>
-                                        <a href=""><i class='bx bxl-facebook' ></i></a>
-                                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                                        <a href=""><i className='bx bxl-twitter'></i></a>
+                                        <a href=""><i className='bx bxl-facebook' ></i></a>
+                                        <a href=""><i className='bx bxl-instagram-alt' ></i></a>
+                                        <a href=""><i className='bx bxl-linkedin-square' ></i></a>
                                     </div>
 
                                 </div>
@@ -102,10 +102,10 @@ export default function Team() {
                                     <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
 
                                     <div className="team-social-links">
-                                        <a href=""><i class='bx bxl-twitter'></i></a>
-                                        <a href=""><i class='bx bxl-facebook' ></i></a>
-                                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                                        <a href=""><i className='bx bxl-twitter'></i></a>
+                                        <a href=""><i className='bx bxl-facebook' ></i></a>
+                                        <a href=""><i className='bx bxl-instagram-alt' ></i></a>
+                                        <a href=""><i className='bx bxl-linkedin-square' ></i></a>
                                     </div>
 
                                 </div>

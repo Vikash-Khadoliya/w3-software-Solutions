@@ -20,9 +20,9 @@ export default function About() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                             <ul>
-                                <li><i class='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                                <li><i class='bx bx-check-double' ></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                                <li><i class='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                                <li><i className='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                                <li><i className='bx bx-check-double' ></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                                <li><i className='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
                             </ul>
 
                         </div>

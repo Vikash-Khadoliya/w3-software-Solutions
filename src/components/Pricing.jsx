@@ -27,11 +27,11 @@ export default function Pricing() {
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i class='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i class='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i class='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i class='bx bx-x' ></i><del>Pharetra massa massa ultricies</del></li>
-                                    <li><i class='bx bx-x' ></i><del>Massa ultricies mi quis hendrerit</del></li>
+                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
+                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
+                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
+                                    <li><i className='bx bx-x' ></i><del>Pharetra massa massa ultricies</del></li>
+                                    <li><i className='bx bx-x' ></i><del>Massa ultricies mi quis hendrerit</del></li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>
@@ -48,11 +48,11 @@ export default function Pricing() {
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i class='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i class='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i class='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i class='bx bx-check' ></i>Pharetra massa massa ultricies</li>
-                                    <li><i class='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
+                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
+                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
+                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
+                                    <li><i className='bx bx-check' ></i>Pharetra massa massa ultricies</li>
+                                    <li><i className='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>
@@ -69,11 +69,11 @@ export default function Pricing() {
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i class='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i class='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i class='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i class='bx bx-check' ></i>Pharetra massa massa ultricies</li>
-                                    <li><i class='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
+                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
+                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
+                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
+                                    <li><i className='bx bx-check' ></i>Pharetra massa massa ultricies</li>
+                                    <li><i className='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>

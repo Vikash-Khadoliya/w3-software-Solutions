@@ -58,7 +58,7 @@ export default function Faq() {
                             <div key={index} className={open === index ? "faq-list-content-new" : "faq-list-content"} onClick={() => {
                                 accordion(index);
                             }}>
-                                <a className='faq-list-header'><span><i class='bx bx-question-mark' ></i></span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
+                                <a className='faq-list-header'><span><i className='bx bx-question-mark' ></i></span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
                                 <div className='faq-list-body'>
                                     <p>{data.content}</p>
                                 </div>

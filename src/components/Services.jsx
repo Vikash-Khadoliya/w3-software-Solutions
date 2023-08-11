@@ -26,7 +26,7 @@ export default function Services() {
                                 <div className="service col-lg-6">
 
                                     <div className="service-content">
-                                        <i class='bx bx-basketball' ></i>
+                                        <i className='bx bx-basketball' ></i>
                                         <div className="service-title">
                                             <h3>Lorem Ipsum</h3>
                                         </div>
@@ -38,7 +38,7 @@ export default function Services() {
                                 <div className="service col-lg-6">
 
                                     <div className="service-content">
-                                        <i class='bx bx-paper-plane' ></i>
+                                        <i className='bx bx-paper-plane' ></i>
                                         <div className="service-title">
                                             <h3>Lorem Ipsum</h3>
                                         </div>
@@ -59,7 +59,7 @@ export default function Services() {
                                 <div className="service col-lg-6">
 
                                     <div className="service-content">
-                                        <i class='bx bx-time' ></i>
+                                        <i className='bx bx-time' ></i>
                                         <div className="service-title">
                                             <h3>Lorem Ipsum</h3>
                                         </div>
@@ -71,7 +71,7 @@ export default function Services() {
                                 <div className="service col-lg-6">
 
                                     <div className="service-content">
-                                        <i class='bx bx-layout' ></i>
+                                        <i className='bx bx-layout' ></i>
                                         <div className="service-title">
                                             <h3>Lorem Ipsum</h3>
                                         </div>

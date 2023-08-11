@@ -12,8 +12,13 @@ import Pricing from "./components/Pricing";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import NewsLetter from "./components/Newsletter";
+import Links from "./components/Links";
 
 function App() {
+
+  window.onclick = () => {
+    console.log("he clicked me!")
+  }
 
   return (
     <>
@@ -31,6 +36,7 @@ function App() {
       <Faq />
       <Contact />
       <NewsLetter />
+      <Links />
     </>
   )
 }

@@ -16,7 +16,7 @@ export default function Hero() {
                         <div className="hero-btn d-flex align-items-center">
 
                             <a href='#' className='get-started'>Get Started</a>
-                            <a href='#' className='watch-video'><i class='bx bx-play' ></i> Watch Video</a>
+                            <a href='#' className='watch-video'><i className='bx bx-play' ></i> Watch Video</a>
 
                         </div>
 
