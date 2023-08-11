@@ -4,34 +4,26 @@ import BenefitsImg from '../assets/benefits.png';
 
 export default function Benefits() {
 
-    const [open, setOpen] = useState(true);
-    const [close, setClose] = useState(true);
+    const [open, setOpen] = useState(0);
 
-    const accordion = (id) => {
+    const items = [
+        {
+            title: 'Non consectetur a erat nam at lectus urna duis?',
+            content: 'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
+        },
+        {
+            title: 'Feugiat scelerisque varius morbi enim nunc?',
+            content: 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.'
+        },
+        {
+            title: 'Dolor sit amet consectetur adipiscing elit?',
+            content: 'Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis'
+        },
+    ]
 
-        const lists = document.getElementsByClassName("benefit-list-content");
+    const accordion = (index) => {
 
-
-
-
-        if (open) {
-
-
-            document.getElementById(id).className = "benefit-list-content-new";
-            // document.getElementById(id).querySelector(".bx-chevron-down").className = "bx bx-chevron-up"
-
-            setOpen(!open);
-
-        } else {
-            document.getElementById(id).className = "benefit-list-content";
-            // document.getElementById(id).querySelector(".bx-chevron-up").className = "bx bx-chevron-down"
-            setOpen(!open);
-
-        }
-
-
-
-
+        setOpen(index);
 
     }
 
@@ -49,35 +41,18 @@ export default function Benefits() {
 
                         <div className='benefits-lists'>
 
-                            <div className="benefit-list-content" id='01' onClick={() => {
-                                accordion('01');
-                            }}>
-                                <a className='benefit-list-header'><span>01 </span> Non consectetur a erat nam at lectus urna duis?<i className='bx bx-chevron-down'></i></a>
-                                <div className='benefit-list-body' id='01'>
-                                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                                </div>
-                            </div>
+                            {items.map((data, index) => (
 
-                            <div className="benefit-list-content" id='02' onClick={() => {
-                                accordion('02');
-                            }}>
-                                <a className='benefit-list-header'><span>02 </span> Feugiat scelerisque varius morbi enim nunc?<i className='bx bx-chevron-down'></i></a>
-                                <div className='benefit-list-body' id='02'>
-                                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                                <div key={index} className={open === index ? "benefit-list-content-new" : "benefit-list-content"} onClick={() => {
+                                    accordion(index);
+                                }}>
+                                    <a className='benefit-list-header'><span>0{index + 1}</span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
+                                    <div className='benefit-list-body'>
+                                        <p>{data.content}</p>
+                                    </div>
                                 </div>
 
-                            </div>
-
-                            <div className="benefit-list-content" id='03' onClick={() => {
-                                accordion('03');
-                            }}>
-                                <a className='benefit-list-header'><span>03 </span> Dolor sit amet consectetur adipiscing elit?<i className='bx bx-chevron-down'></i></a>
-                                <div className='benefit-list-body' id='03'>
-                                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                                </div>
-                            </div>
-
-
+                            ))}
 
                         </div>
 
@@ -90,6 +65,7 @@ export default function Benefits() {
                 </div>
 
             </section>
+
 
         </>
     )

@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Cta from "./components/Cta";
 import Portfolio from "./components/Portfolio";
+import Team from "./components/Team";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Services />
       <Cta />
       <Portfolio />
+      <Team />
     </>
   )
 }
