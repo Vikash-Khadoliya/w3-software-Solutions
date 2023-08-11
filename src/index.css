@@ -600,6 +600,7 @@ section {
 
 .team {
     padding: 60px 100px;
+    background: #f8f8f8;
 }
 
 .team-main {
@@ -642,6 +643,7 @@ section {
 .team-txt-content p {
     color: #555;
     font-weight: 400;
+    text-align: center;
 }
 
 .team-list-row {
@@ -715,6 +717,138 @@ section {
 }
 
 .team-social-links a:hover {
+    background-color: rgb(8, 138, 252);
+    color: #fff;
+}
+
+/*pricing section design*/
+
+.pricing {
+    padding: 60px 100px;
+}
+
+.pricing-main {
+    text-align: center;
+}
+
+.pricing-main h2 {
+    position: relative;
+    font-weight: 700;
+    color: rgba(1, 82, 152);
+    display: inline;
+    padding: 13px 0;
+}
+
+.pricing-txt {
+    margin-top: 3rem;
+}
+
+.pricing-main h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 2px;
+}
+
+.pricing-main h2::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: rgba(1, 82, 152);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pricing-txt p {
+    color: #555;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing-list-row {
+    padding: 10px;
+}
+
+.price-list-content {
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    padding: 2rem;
+    transition: .3s ease-out;
+    border-radius: 8px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 10px auto;
+}
+
+.price-list-content h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(1, 82, 152);
+}
+
+.price-list-content h3 {
+    margin-top: 1.3rem;
+    display: flex;
+    font-size: 4rem;
+    color: rgba(1, 82, 152);
+}
+
+.price-list-content h3 span {
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+.price-list-content>span {
+    color: rgb(8, 138, 252);
+}
+
+.price-list-content-includes {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.price-list-content-includes li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.price-list-content-includes li i {
+    margin-right: 7px;
+    font-size: 1.1rem;
+}
+
+.bx-check {
+    color: green;
+}
+
+.bx-x {
+    color: #666;
+}
+
+.price-list-content .btn {
+    margin-top: 2rem;
+    padding: 14px 2rem;
+    background-color: transparent;
+    color: rgb(8, 138, 252);
+    border-radius: 30px;
+    border: 1px solid rgb(8, 138, 252);
+    transition: .3s ease-out;
+}
+
+.filter .btn {
+    background-color: rgb(8, 138, 252);
+    color: #fff;
+}
+
+.price-list-content .btn:hover:not(.filter a) {
     background-color: rgb(8, 138, 252);
     color: #fff;
 }
