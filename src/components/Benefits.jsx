@@ -25,6 +25,10 @@ export default function Benefits() {
 
         setOpen(index);
 
+        if (index === open) {
+            setOpen(null);
+        }
+
     }
 
     return (

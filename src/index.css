@@ -12,12 +12,12 @@ section {
 /*navigation section design*/
 
 .navigation {
-    padding: 20px 100px;
-    width: 100%;
-    background: inherit;
     position: fixed;
     top: 0;
     left: 0;
+    background: inherit;
+    width: 100%;
+    padding: 20px 100px;
     z-index: 10001;
 }
 
@@ -594,5 +594,127 @@ section {
 .cta-txt-btn a:hover {
     background-color: #fff;
     color: rgb(8, 138, 252);
+}
 
+/*team section design*/
+
+.team {
+    padding: 60px 100px;
+}
+
+.team-main {
+    text-align: center;
+}
+
+.team-main h2 {
+    position: relative;
+    font-weight: 700;
+    color: rgba(1, 82, 152);
+    display: inline;
+    padding: 13px 0;
+}
+
+.team-txt {
+    margin-top: 3rem;
+}
+
+.team-main h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ddd;
+    width: 100%;
+    height: 2px;
+}
+
+.team-main h2::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: rgba(1, 82, 152);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-txt-content p {
+    color: #555;
+    font-weight: 400;
+}
+
+.team-list-row {
+    padding: 10px;
+}
+
+.team-list-content {
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    padding: 2rem;
+    cursor: pointer;
+    transition: .3s ease-out;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.team-list-content:hover {
+    transform: translateY(-5px);
+}
+
+.team-list-img {
+    width: 150px;
+    margin-right: 2rem;
+}
+
+.team-list-img img {
+    width: 100%;
+    display: block;
+    border-radius: 100px;
+}
+
+.team-profile h3 {
+    font-size: 1.3rem;
+    line-height: .3;
+    font-weight: 600;
+    color: rgba(1, 82, 152);
+}
+
+.team-profile span {
+    position: relative;
+    color: #444;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.team-profile span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.team-profile p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+}
+
+.team-social-links a {
+    padding: 10px;
+    background: #eee;
+    border-radius: 30px;
+    display: inline-flex;
+    text-decoration: none;
+    margin-right: 7px;
+    transition: .3s ease-out;
+}
+
+.team-social-links a:hover {
+    background-color: rgb(8, 138, 252);
+    color: #fff;
 }

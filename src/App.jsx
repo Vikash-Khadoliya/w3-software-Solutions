@@ -21,7 +21,7 @@ function App() {
       <Skills />
       <Services />
       <Cta />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Team />
     </>
   )
