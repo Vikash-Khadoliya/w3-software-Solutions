@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import Team from "./components/Team";
 import Pricing from "./components/Pricing";
 import Faq from "./components/Faq";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Team />
       <Pricing />
       <Faq />
+      <Contact />
     </>
   )
 }

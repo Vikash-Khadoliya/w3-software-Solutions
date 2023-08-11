@@ -55,11 +55,11 @@ export default function Faq() {
                     <div className="faq-list">
                         {items.map((data, index) => (
 
-                            <div key={index} className={open === index ? "benefit-list-content-new" : "benefit-list-content"} onClick={() => {
+                            <div key={index} className={open === index ? "faq-list-content-new" : "faq-list-content"} onClick={() => {
                                 accordion(index);
                             }}>
-                                <a className='benefit-list-header'><span>0{index + 1}</span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
-                                <div className='benefit-list-body'>
+                                <a className='faq-list-header'><span><i class='bx bx-question-mark' ></i></span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
+                                <div className='faq-list-body'>
                                     <p>{data.content}</p>
                                 </div>
                             </div>
