@@ -242,6 +242,22 @@ section {
     .hero-content {
         flex-direction: column-reverse;
     }
+
+    .hero-txt {
+        margin-top: 1.2rem;
+        text-align: center;
+    }
+
+
+    .hero-txt h1 {
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+
+    .hero-btn {
+        justify-content: center;
+    }
 }
 
 .hero-img {
