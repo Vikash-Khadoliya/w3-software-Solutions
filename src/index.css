@@ -153,6 +153,9 @@ section {
     opacity: 1;
 }
 
+.navlist-dropdown-btn-toggle {
+    display: none !important;
+}
 
 /*hero section design*/
 
@@ -231,6 +234,77 @@ section {
 
 @media screen and (max-width: 1200px) {
 
+    .navlist {
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 80vh;
+        background-color: #fff;
+        flex-direction: column;
+        align-items: start !important;
+        padding: 2rem 1rem;
+        border-radius: 8px;
+    }
+
+    .navlist::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navlist a,
+    .navlist-dropdown {
+        color: #222 !important;
+        margin-bottom: 1rem;
+        font-size: 14px;
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: relative;
+        opacity: 1;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .dropdown-content.open {
+        display: block;
+    }
+
+    .dropdown-content.close {
+        display: none;
+    }
+
+
+    .navlist-btn {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .navlist-btn a {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navlist-dropdown a i {
+        float: right;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+
+    .navlist-dropdown-btn-toggle {
+        display: block !important;
+    }
+
+    .navlist-dropdown-btn {
+        display: none !important;
+    }
+
     .hero {
         height: 100vh;
     }
@@ -258,6 +332,8 @@ section {
     .hero-btn {
         justify-content: center;
     }
+
+
 }
 
 .hero-img {

@@ -1,5 +1,15 @@
+import { useState } from "react"
+
 
 export default function Navigation() {
+
+    const [active, setActive] = useState(false);
+
+    const toggle = () => {
+
+        setActive(!active);
+
+    }
 
     return (
         <>
@@ -20,8 +30,14 @@ export default function Navigation() {
                         <a>Portfolio</a>
                         <a>Team</a>
                         <div className="navlist-dropdown">
-                            <a>Drop Down <i className='bx bx-chevron-down'></i></a>
-                            <div className="dropdown-content">
+
+                            <a className="navlist-dropdown-btn-toggle" onClick={() => {
+                                toggle();
+                            }}>Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
+
+                            <a className="navlist-dropdown-btn">Drop Down <i ></i></a>
+
+                            <div className={active ? "dropdown-content open" : "dropdown-content close"}>
                                 <a href="">dropdown 1</a>
                                 <div className="deep-dropdown">
                                     <a href="">deep dropdown <i className='bx bx-chevron-right'></i></a>
@@ -35,6 +51,7 @@ export default function Navigation() {
                                 <a href="">dropdown 3</a>
                                 <a href="">dropdown 4</a>
                             </div>
+
                         </div>
                         <a>Contact</a>
                         <div className="navlist-btn">
