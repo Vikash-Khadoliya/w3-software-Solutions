@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Partners from "./components/Partners";
@@ -15,10 +17,6 @@ import NewsLetter from "./components/Newsletter";
 import Links from "./components/Links";
 
 function App() {
-
-  window.onclick = () => {
-    console.log("he clicked me!")
-  }
 
   return (
     <>

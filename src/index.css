@@ -76,7 +76,7 @@ section {
     margin: 0 1rem;
     text-decoration: none;
     cursor: pointer;
-    transition: .3s ease-in;
+    transition: .3s ease-out;
 }
 
 .navlist>a:hover,
@@ -89,7 +89,7 @@ section {
     border: 2px solid rgb(8, 138, 252);
     font-weight: 500;
     border-radius: 50px;
-    transition: .3s ease-in;
+    transition: .3s ease-out;
 }
 
 .navlist-btn a:hover {
@@ -155,6 +155,10 @@ section {
 
 .navlist-dropdown-btn-toggle {
     display: none !important;
+}
+
+.burger-menu {
+    display: none;
 }
 
 /*hero section design*/
@@ -234,61 +238,130 @@ section {
 
 @media screen and (max-width: 1200px) {
 
+    /*navlist section responsiveness*/
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .box {
+        position: relative;
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        margin: 5px;
+        transition: .3s ease-out;
+    }
+
+    .box1 {
+        transform: rotate(-45deg) translate(0, 0);
+    }
+
+    .box2 {
+        opacity: 0;
+    }
+
+    .box3 {
+        transform: rotate(45deg) translate(-5px, -9px);
+    }
+
     .navlist {
         position: absolute;
+        width: 90%;
         top: 5rem;
         left: 50%;
         transform: translateX(-50%);
-        width: 90%;
         height: 80vh;
         background-color: #fff;
         flex-direction: column;
         align-items: start !important;
-        padding: 2rem 1rem;
+        padding: 2rem 1.5rem;
         border-radius: 8px;
+        box-shadow: -2px 2px 16px rgba(34, 34, 34, .3);
+        overflow-y: scroll;
+        transition: .2s ease-out;
     }
 
-    .navlist::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
+    .navlist-fade {
+        top: -40rem;
     }
 
     .navlist a,
-    .navlist-dropdown {
+    .navlist-dropdown,
+    .deep-dropdown {
         color: #222 !important;
-        margin-bottom: 1rem;
+        margin: 0 auto 1rem;
         font-size: 14px;
         display: block;
         width: 100%;
     }
 
-    .dropdown-content {
+    .navlist a:hover {
+        color: rgb(99, 181, 253);
+        transition: .1s ease-out;
+    }
+
+    .navlist-dropdown-btn-toggle {
+        display: block !important;
+        margin-bottom: 0 !important;
+    }
+
+    .navlist-dropdown-btn-toggle.active,
+    .deep-dropdown-btn-toggle.active {
+        color: rgb(99, 181, 253) !important;
+    }
+
+    .dropdown-content,
+    .deep-dropdown-content {
+        margin: 1rem !important;
         position: relative;
         opacity: 1;
         padding: 0;
-        margin-top: 10px;
+        margin: 0;
+        width: 100%;
+        left: 0;
+        padding: 1rem !important;
+        box-shadow: -2px 2px 16px rgba(34, 34, 34, .2);
     }
 
-    .dropdown-content.open {
+    .dropdown-content a:hover {
+        font-weight: 300 !important;
+        color: rgb(99, 181, 253) !important;
+    }
+
+    .dropdown-content.open,
+    .deep-dropdown-content.open {
         display: block;
     }
 
-    .dropdown-content.close {
+    .dropdown-content.close,
+    .deep-dropdown-content.close {
         display: none;
     }
 
-
-    .navlist-btn {
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .navlist-btn a {
+    .dropdown-content a {
+        color: #222;
+        font-weight: 300;
+        font-size: 14px;
         display: block;
         width: 100%;
         padding: 0;
+    }
+
+    .navlist-btn {
+        display: inline-block !important;
+    }
+
+    .navlist-btn a {
+        color: rgb(8, 138, 252) !important;
+        width: 100%;
+        padding: 10px 16px;
+    }
+
+    .navlist-btn a:hover {
+        background-color: rgb(8, 138, 252);
+        color: #fff !important;
     }
 
     .navlist-dropdown a i {
@@ -297,13 +370,11 @@ section {
         margin-right: 2rem;
     }
 
-    .navlist-dropdown-btn-toggle {
-        display: block !important;
-    }
-
     .navlist-dropdown-btn {
         display: none !important;
     }
+
+    /*hero section responsiveness*/
 
     .hero {
         height: 100vh;

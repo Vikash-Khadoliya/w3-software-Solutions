@@ -36,11 +36,11 @@ export default function Links() {
                                     <h4>Useful Links</h4>
 
                                     <div className="other-links">
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Home</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>About us</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Services</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Terms of service</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Privacy Policy</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Home</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>About us</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Services</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Terms of service</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Privacy Policy</a>
                                     </div>
 
                                 </div>
@@ -60,11 +60,11 @@ export default function Links() {
                                     <h4>Useful Services</h4>
 
                                     <div className="other-links">
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Web Design</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Web Development</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Product Management</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Marketing</a>
-                                        <a href=""><i class='bx bx-chevron-right' ></i>Graphic Design</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Web Design</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Web Development</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Product Management</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Marketing</a>
+                                        <a href=""><i className='bx bx-chevron-right' ></i>Graphic Design</a>
                                     </div>
 
                                 </div>
@@ -76,11 +76,11 @@ export default function Links() {
                                     <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
 
                                     <div className="link-social-links">
-                                        <a href=""><i class='bx bxl-twitter' ></i></a>
-                                        <a href=""><i class='bx bxl-facebook' ></i></a>
-                                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                                        <a href=""><i class='bx bxl-skype' ></i></a>
-                                        <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+                                        <a href=""><i className='bx bxl-twitter' ></i></a>
+                                        <a href=""><i className='bx bxl-facebook' ></i></a>
+                                        <a href=""><i className='bx bxl-instagram-alt' ></i></a>
+                                        <a href=""><i className='bx bxl-skype' ></i></a>
+                                        <a href=""><i className='bx bxl-linkedin-square' ></i></a>
                                     </div>
 
                                 </div>
