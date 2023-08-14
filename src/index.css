@@ -409,6 +409,50 @@ section {
         justify-content: center;
     }
 
+    /*benefits section responsiveness*/
+
+    .benefits-img img {
+        width: 75% !important;
+        margin: 0 auto;
+    }
+
+    /*skills section responsiveness*/
+
+    .skills-img img {
+        width: 75% !important;
+        margin: 0 auto;
+    }
+
+    .skills-txt {
+        margin-top: 2rem;
+    }
+
+    /*cta section responsiveness*/
+
+    .cta-content h3 {
+        text-align: center;
+    }
+
+    .cta-txt-btn {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-txt-btn p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 784px) {}
+
+@media screen and (max-width: 784px) {
+
+    .hero-txt h1 {
+        font-size: 2rem;
+    }
+
 
 }
 
@@ -703,7 +747,7 @@ section {
 
 .cta-txt-btn p {
     color: #fff;
-    width: 900px;
+    width: 800px;
     max-width: 100%;
 }
 
@@ -715,6 +759,7 @@ section {
     font-weight: 700;
     border: 2px solid #fff;
     transition: .3s ease-out;
+    font-size: 14px;
 }
 
 .cta-txt-btn a:hover {
