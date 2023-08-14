@@ -6,30 +6,25 @@ export default function Navigation() {
     const [active, setActive] = useState(false);
     const [active2, setActive2] = useState(true);
     const [menu, setMenu] = useState(true);
-    const [windows, setWindows] = useState(false);
+
 
     const toggle = () => {
-
         setActive(!active);
         setActive2(!active2);
-
     }
 
     const toggle2 = () => {
-
         setActive2(!active2);
-
     }
 
     const openMenu = () => {
-
         setMenu(!menu);
-
     }
 
-    window.onclick = () => {
-        setWindows(!windows);
-    }
+
+
+
+
 
 
     return (
@@ -47,9 +42,9 @@ export default function Navigation() {
 
                         <a href="#">Home</a>
                         <a href="#about">About</a>
-                        <a>Services</a>
-                        <a>Portfolio</a>
-                        <a>Team</a>
+                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#team">Team</a>
 
                         <div className="navlist-dropdown">
 
@@ -84,7 +79,7 @@ export default function Navigation() {
                             </div>
 
                         </div>
-                        <a>Contact</a>
+                        <a href="#contact">Contact</a>
                         <div className="navlist-btn">
                             <a>Get Started</a>
                         </div>

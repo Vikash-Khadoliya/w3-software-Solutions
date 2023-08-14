@@ -66,6 +66,11 @@ section {
     z-index: 10001;
 }
 
+.navigation-bg {
+    background-color: rgba(5, 51, 92, .8);
+}
+
+
 .navlist a,
 .logo h2 {
     color: #fff !important;
