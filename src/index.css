@@ -963,21 +963,20 @@ section {
 
 .faq-list-content {
     background: #fff;
-    height: 65px;
     overflow: hidden;
     transition: .3s ease-out;
     max-width: 1100px;
     margin: 0 auto 1rem;
 }
 
-.faq-list-content-new {
+/* .faq-list-content-new {
     transition: .3s ease-out;
     background: #fff;
     margin-bottom: 1rem;
     height: 200px;
     max-width: 1100px;
     margin: 0 auto 1rem;
-}
+} */
 
 .faq-list-header {
     position: relative;
@@ -1025,6 +1024,10 @@ section {
 }
 
 .faq-list-body {
+    height: 0;
+}
+
+.faq-list-body-new {
     padding: 5px 2rem;
 }
 
