@@ -47,13 +47,15 @@ export default function Benefits() {
 
                             {items.map((data, index) => (
 
-                                <div key={index} className={open === index ? "benefit-list-content-new" : "benefit-list-content"} onClick={() => {
+                                <div key={index} className="benefit-list-content" onClick={() => {
                                     accordion(index);
                                 }}>
                                     <a className='benefit-list-header'><span>0{index + 1}</span> {data.title}<i className={open === index ? "bx bx-chevron-up" : "bx bx-chevron-down"} ></i></a>
-                                    <div className='benefit-list-body'>
+
+                                    <div className={open === index ? 'benefit-list-body-open' : 'benefit-list-body'}>
                                         <p>{data.content}</p>
                                     </div>
+
                                 </div>
 
                             ))}

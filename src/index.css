@@ -568,22 +568,24 @@ section {
 .benefit-list-content {
     background: #fff;
     margin-bottom: 1rem;
-    height: 65px;
     overflow: hidden;
     transition: .3s ease-out;
 }
 
-.benefit-list-content-new {
-    transition: .3s ease-out;
-    background: #fff;
-    margin-bottom: 1rem;
-    height: 200px;
+.benefit-list-body {
+    height: 0;
+}
+
+.benefit-list-body-open {
+    display: inline-block;
+    padding: 5px 2rem;
+
 }
 
 .benefit-list-header {
     position: relative;
     text-decoration: none;
-    display: flex;
+    display: block;
     padding: 1rem;
     color: #222;
     font-weight: 500;
@@ -618,9 +620,7 @@ section {
     color: rgb(8, 138, 252);
 }
 
-.benefit-list-body {
-    padding: 5px 2rem;
-}
+
 
 /*skills section design*/
 
