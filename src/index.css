@@ -445,7 +445,13 @@ section {
 
 }
 
-@media screen and (max-width: 784px) {}
+@media screen and (max-width: 991px) {
+
+    section {
+        padding: 60px 35px;
+    }
+
+}
 
 @media screen and (max-width: 784px) {
 
@@ -455,6 +461,8 @@ section {
 
 
 }
+
+@media screen and (max-width: 650px) {}
 
 .hero-img {
     position: relative;
@@ -485,7 +493,7 @@ section {
 
 .partner-logo img {
     display: block;
-    width: 40%;
+    max-width: 40% !important;
     margin: 2rem auto;
     filter: grayscale(1);
 }
@@ -493,6 +501,7 @@ section {
 .partner-logo img:hover {
     filter: grayscale(0);
 }
+
 
 /*about section design*/
 
@@ -843,7 +852,7 @@ section {
     border-radius: 30px;
     display: inline-flex;
     text-decoration: none;
-    margin-right: 7px;
+    margin: 0 7px 8px 0;
     transition: .3s ease-out;
 }
 
