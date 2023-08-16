@@ -462,7 +462,49 @@ section {
 
 }
 
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 500px) {
+
+    .navigation {
+        padding: 20px 30px;
+    }
+
+    .hero {
+        height: 50vh !important;
+    }
+
+    .hero-content {
+        padding: 90px 30px 30px;
+    }
+
+    .hero-img,
+    .watch-video {
+        display: none !important;
+    }
+
+}
+
+
+@media screen and (max-width: 410px) {
+
+    section {
+        padding: 60px 20px;
+    }
+
+    .hero-content {
+        padding: 60px 30px 30px;
+    }
+
+    .hero-btn {
+        margin-top: 1rem;
+    }
+
+    .partners {
+        display: none;
+    }
+
+
+}
+
 
 .hero-img {
     position: relative;
