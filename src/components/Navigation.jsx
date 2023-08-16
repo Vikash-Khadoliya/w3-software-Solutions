@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 
 export default function Navigation() {
@@ -6,6 +6,8 @@ export default function Navigation() {
     const [active, setActive] = useState(false);
     const [active2, setActive2] = useState(true);
     const [menu, setMenu] = useState(true);
+    const [bg, setBg] = useState(false);
+
 
 
     const toggle = () => {
@@ -21,16 +23,28 @@ export default function Navigation() {
         setMenu(!menu);
     }
 
+    const handleScroll = () => {
 
+        if (window.scrollY > 50) {
+            setBg(true);
+        } else {
+            setBg(false);
+        }
 
+    }
 
-
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
+    }, [])
 
 
     return (
         <>
 
-            <section className="navigation" id="navigation">
+            <section className={bg ? "navigation navigation-bg" : "navigation"} id="navigation">
 
                 <div className="navigation-content d-flex align-items-center justify-content-between">
 
@@ -52,7 +66,7 @@ export default function Navigation() {
                                 toggle();
                             }}>Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
-                            <a className="navlist-dropdown-btn">Drop Down <i ></i></a>
+                            <a className="navlist-dropdown-btn">Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
                             <div className={active ? "dropdown-content open" : "dropdown-content close"}>
 

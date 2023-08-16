@@ -64,12 +64,12 @@ section {
     width: 100%;
     padding: 20px 100px;
     z-index: 10001;
+    transition: .3s ease-out;
 }
 
 .navigation-bg {
     background-color: rgba(5, 51, 92, .8);
 }
-
 
 .navlist a,
 .logo h2 {
@@ -818,6 +818,36 @@ section {
     color: rgb(8, 138, 252);
 }
 
+/*portfolio section design*/
+.project-listing {
+    margin-top: 1.5rem;
+}
+
+.project-listing img {
+    width: 100%;
+}
+
+.project-listing .col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.project-btn button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 8px 1rem;
+    border-radius: 30px;
+    transition: .3s linear;
+}
+
+.project-btn button:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
 /*team section design*/
 
 .team {
@@ -1360,4 +1390,26 @@ section {
 
 .link-social-links a:hover {
     background-color: rgb(8, 130, 236);
+}
+
+/*footer section design*/
+
+.arrowUp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.arrowUp.active {
+    display: block !important;
+}
+
+.arrowUp i {
+    padding: 10px 13px;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
 }
