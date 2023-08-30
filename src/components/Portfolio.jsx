@@ -9,13 +9,53 @@ import PortfolioSeven from '../assets/portfolio-7.jpg';
 import PortfolioEight from '../assets/portfolio-8.jpg';
 import PortfolioNine from '../assets/portfolio-9.jpg';
 
+import { motion, AnimatePresence } from 'framer-motion';
+
 export default function Portfolio() {
 
-    const [active, setActive] = useState(0);
+    const [activeBtn, setActiveBtn] = useState("all");
 
-    const handleActive = () => {
-        alert("hello world");
-    }
+    const projects = [
+
+        {
+            portfolio: PortfolioFour,
+            genre: 'card'
+        },
+        {
+            portfolio: PortfolioThree,
+            genre: 'app'
+        },
+        {
+            portfolio: PortfolioOne,
+            genre: 'app'
+        },
+        {
+            portfolio: PortfolioTwo,
+            genre: 'app'
+        },
+        {
+            portfolio: PortfolioSeven,
+            genre: 'web'
+        },
+        {
+            portfolio: PortfolioEight,
+            genre: 'web'
+        },
+        {
+            portfolio: PortfolioNine,
+            genre: 'web'
+        },
+        {
+            portfolio: PortfolioFive,
+            genre: 'card'
+        },
+        {
+            portfolio: PortfolioSix,
+            genre: 'card'
+        },
+    ]
+
+
 
     return (
         <>
@@ -33,8 +73,8 @@ export default function Portfolio() {
                     </div>
 
                     <div className="project-content">
-
-                        <Project active={active} setActive={setActive} handleActive={handleActive} />
+                        <ProjectBtns activeBtn={activeBtn} setActiveBtn={setActiveBtn} />
+                        <ProjectImg projects={projects} activeBtn={activeBtn} />
 
                     </div>
 
@@ -47,95 +87,67 @@ export default function Portfolio() {
 
 }
 
-function Project({ active, setActive, handleActive }) {
+
+
+function ProjectImg({ projects, activeBtn }) {
 
     return (
         <>
-            <ProjectButtons clickActive={handleActive} />
-            <ProjectImgs />
+            <div className="project-images">
+                <motion.div>
+                    <div className="row
+                ">
+
+
+                        {projects.map((item, index) => (
+
+                            item.genre === activeBtn ?
+                                <AnimatePresence>
+
+                                    <motion.img key={index} src={item.portfolio} alt="" animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} layout />
+
+
+                                </AnimatePresence>
+
+                                : ''
+
+                        ))}
+
+                        {
+                            projects.map((item, index) => (
+
+                                activeBtn === 'all' ?
+
+                                    <AnimatePresence>
+                                        <motion.img key={index} src={item.portfolio} alt="" animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} layout />
+                                    </AnimatePresence>
+
+                                    : ''
+
+                            ))
+                        }
+
+
+                    </div>
+                </motion.div>
+
+
+            </div>
         </>
     )
 
 }
 
-function ProjectButtons({ clickActive }) {
+function ProjectBtns({ activeBtn, setActiveBtn }) {
 
     return (
         <>
             <div className="project-btn text-center">
-                <button id="all" onClick={clickActive}>All</button>
-                <button id="app">App</button>
-                <button id="card">Card</button>
-                <button id="web">Web</button>
+                <button className={activeBtn === 'all' ? 'active' : ''} onClick={() => setActiveBtn("all")}>All</button>
+                <button className={activeBtn === 'app' ? 'active' : ''} onClick={() => setActiveBtn("app")}>App</button>
+                <button className={activeBtn === 'card' ? 'active' : ''} onClick={() => setActiveBtn("card")}>Card</button>
+                <button className={activeBtn === 'web' ? 'active' : ''} onClick={() => setActiveBtn("web")}>Web</button>
             </div>
-        </>
-    )
-
-}
-
-function ProjectImgs() {
-
-    const images = [
-        {
-            img: PortfolioOne,
-            name: 'app'
-        },
-        {
-            img: PortfolioTwo,
-            name: 'web'
-        },
-        {
-            img: PortfolioThree,
-            name: 'app'
-        },
-        {
-            img: PortfolioFour,
-            name: 'card'
-        },
-        {
-            img: PortfolioFive,
-            name: 'web'
-        },
-        {
-            img: PortfolioSix,
-            name: 'app'
-        },
-        {
-            img: PortfolioSeven,
-            name: 'card'
-        },
-        {
-            img: PortfolioEight,
-            name: 'card'
-        },
-        {
-            img: PortfolioNine,
-            name: 'web'
-        },
-    ]
-
-    return (
-        <>
-
-            <div className="project-listing">
-
-
-                <div className="row ">
-
-                    {images.map((item, index) => (
-
-                        <div className="col-4">
-                            <img src={item.img} alt={item.img} />
-                        </div>
-
-
-                    ))}
-
-                </div>
-
-
-            </div>
-
         </>
     )
 
