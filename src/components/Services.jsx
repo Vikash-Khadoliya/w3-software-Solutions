@@ -14,7 +14,7 @@ export default function Services() {
                     </div>
 
                     <div className="main-txt">
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>We provide a broad range of technological solutions to help you grow your company online. Our team provides intelligent, scalable services that are customized to meet your needs, from development to marketing.</p>
                     </div>
 
                     <div className="services-list row">
@@ -28,9 +28,9 @@ export default function Services() {
                                     <div className="service-content">
                                         <i className='bx bx-basketball' ></i>
                                         <div className="service-title">
-                                            <h3>Lorem Ipsum</h3>
+                                            <h3>Mobile App Development</h3>
                                         </div>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <p>We create reliable apps for iOS and Android with beautiful UI/UX, guaranteeing your users dependable functionality and quick performance.</p>
                                     </div>
 
                                 </div>
@@ -40,9 +40,9 @@ export default function Services() {
                                     <div className="service-content">
                                         <i className='bx bx-paper-plane' ></i>
                                         <div className="service-title">
-                                            <h3>Lorem Ipsum</h3>
+                                            <h3>Website Development</h3>
                                         </div>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <p>From landing pages to complex portals we design and develop responsive Website SEO-friendly websites that elevate your online presence.</p>
                                     </div>
 
 
@@ -61,9 +61,9 @@ export default function Services() {
                                     <div className="service-content">
                                         <i className='bx bx-time' ></i>
                                         <div className="service-title">
-                                            <h3>Lorem Ipsum</h3>
+                                            <h3>Blockchain App Development</h3>
                                         </div>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <p>Use our scalable and safe blockchain development services for Web3, DeFi, and other platforms to create cutting-edge decentralized applications.</p>
                                     </div>
 
                                 </div>
@@ -73,9 +73,9 @@ export default function Services() {
                                     <div className="service-content">
                                         <i className='bx bx-layout' ></i>
                                         <div className="service-title">
-                                            <h3>Lorem Ipsum</h3>
+                                            <h3>Digital Marketing Services</h3>
                                         </div>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <p>With our comprehensive digital marketing solutions, which include Google Ads, social media, SEO, and more, you can increase traffic and conversions.</p>
                                     </div>
 
                                 </div>

@@ -8,16 +8,16 @@ export default function Benefits() {
 
     const items = [
         {
-            title: 'Non consectetur a erat nam at lectus urna duis?',
-            content: 'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
+            title: 'What services does W3 Software Solutions provide?',
+            content:'We offer a wide range of IT services including Web Development, Mobile App Development, Digital Marketing, UI/UX Design, CMS & eCommerce Development, and Blockchain App Development..'
         },
         {
-            title: 'Feugiat scelerisque varius morbi enim nunc?',
-            content: 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.'
+            title: 'How long does a typical project take?',
+            content: '. The timeline depends on the project’s scope, but most websites or apps are completed within 4 to 6 weeks, including revisions and deployment..'
         },
         {
-            title: 'Dolor sit amet consectetur adipiscing elit?',
-            content: 'Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis'
+            title: 'Do you offer post-launch support and maintenance?',
+            content: 'Yes, we provide ongoing technical support, performance optimization, and maintenance plans to ensure your solution runs smoothly long-term.'
         },
     ]
 
@@ -40,8 +40,8 @@ export default function Benefits() {
 
 
                     <div className="benefits-txt col-xl-6">
-                        <h3>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></h3>
-                        <p className='par'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                        <h3>Boosting Your Digital Adventure <span>with Creative Solutions</span></h3>
+                        <p className='par'>For startups and businesses, W3 Software Solutions creates web and app solutions that are scalable, secure, and performance-driven. With our proficiency in cutting-edge technologies, we assist companies in streamlining processes and attaining quantifiable expansion.</p>
 
                         <div className='benefits-lists'>
 

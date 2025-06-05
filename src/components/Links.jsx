@@ -22,11 +22,20 @@ export default function Links() {
                                         <li>A108 Adam Street</li>
                                         <li>New York, NY 535022</li>
                                         <li>United States</li>
-                                    </ul>
 
+                                    </ul><ul className="address">
+                                        <li>Samrat regidency, Niwaru Rd Ganesh </li>
+                                        <li>near Shri ram marriage garden,Nagar Vistar Jhotwara</li>
+                                        <li>Jaipur Rajasthan 302012</li>
+                                    </ul>
                                     <ul className="links-info">
                                         <li><span>Phone:</span>+1 5589 55488 55</li>
-                                        <li><span>Email:</span>info@example.com</li>
+                                        <li><span>Email:</span>info@w3softwaresolutions.com</li>
+                                    </ul>
+
+                                     <ul className="links-info">
+                                        <li><span>Phone:</span>+91-7597881864</li>
+                                        <li><span>Email:</span>contact@w3softwaresolutions.com</li>
                                     </ul>
 
                                 </div>

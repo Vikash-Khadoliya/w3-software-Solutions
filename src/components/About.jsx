@@ -17,18 +17,18 @@ export default function About() {
 
                         <div className="about-txt col-md-6">
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>We are a reputable supplier of IT solutions committed to offering cutting-edge digital services that support companies in a world that is changing quickly. Our team creates powerful web, mobile, and software solutions by fusing technical know-how with creativity..</p>
 
                             <ul>
-                                <li><i className='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                                <li><i className='bx bx-check-double' ></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                                <li><i className='bx bx-check-double' ></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                                <li><i className='bx bx-check-double' ></i>Custom Web & Mobile App Development</li>
+                                <li><i className='bx bx-check-double' ></i>IT Consulting & Software Solutions</li>
+                                <li><i className='bx bx-check-double' ></i>Secure, Scalable & Modern Technologies</li>
                             </ul>
 
                         </div>
 
                         <div className="about-btn col-md-6">
-                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>We provide customized solutions that boost productivity and efficiency, regardless of your company's size. In the tech sector, we stand out for our dedication to quality and client satisfaction..</p>
                             <a href="">Learn More</a>
                         </div>
 

@@ -19,8 +19,8 @@ export default function Skills() {
 
                     <div className="skills-txt col-lg-6">
 
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3>Our Technical Proficiency Fuels Your Online Achievement</h3>
+                        <p>Using cutting-edge web technologies, we at W3 Software Solutions are experts at creating high-performance applications. In order to create scalable and interactive digital products, our team is proficient in both front-end and back-end frameworks..</p>
 
                         <div className="skill-ratings">
 
@@ -47,7 +47,7 @@ export default function Skills() {
                             <div className="skill">
                                 <div className="skill-txt">
                                     <span>REACT</span>
-                                    <span>50%</span>
+                                    <span>90%</span>
                                 </div>
                                 <div className="skill-load">
 
@@ -57,7 +57,7 @@ export default function Skills() {
                             <div className="skill">
                                 <div className="skill-txt">
                                     <span>JAVASCRIPT</span>
-                                    <span>80%</span>
+                                    <span>95%</span>
                                 </div>
                                 <div className="skill-load">
 

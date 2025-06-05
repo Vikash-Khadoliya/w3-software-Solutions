@@ -8,9 +8,9 @@ export default function Cta() {
 
                 <div className="cta-content">
 
-                    <h3>Call To Action</h3>
+                    <h3>Are You Prepared to Boost Your Online Presence?</h3>
                     <div className="cta-txt-btn">
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Unlock future-ready, scalable digital solutions for your company by collaborating with W3 Software Solutions. Together, let's create something extraordinary..</p>
                         <a href="">Call To Action</a>
                     </div>
 

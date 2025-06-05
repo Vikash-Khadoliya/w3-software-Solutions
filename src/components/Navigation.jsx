@@ -48,9 +48,10 @@ export default function Navigation() {
 
                 <div className="navigation-content d-flex align-items-center justify-content-between">
 
-                    <div className="logo">
-                        <h2>ACER</h2>
+                <div className="logo">
+                    <img src="/removebg-preview.png" alt="W3 Software Solutions Logo" />
                     </div>
+
 
                     <div className={menu ? "navlist d-flex align-items-center navlist-fade" : "navlist d-flex align-items-center"}>
 
@@ -64,31 +65,31 @@ export default function Navigation() {
 
                             <a className={active ? "navlist-dropdown-btn-toggle active" : "navlist-dropdown-btn-toggle"} onClick={() => {
                                 toggle();
-                            }}>Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
+                            }}>Technologies <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
                             <a className="navlist-dropdown-btn">Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
                             <div className={active ? "dropdown-content open" : "dropdown-content close"}>
 
-                                <a href="">dropdown 1</a>
+                                <a href="">Digital Marketing Services </a>
 
                                 <div className="deep-dropdown">
 
                                     <a className={active2 ? "deep-dropdown-btn-toggle active" : "deep-dropdown-btn-toggle"} onClick={() => {
                                         toggle2();
-                                    }}>deep dropdown <i className={active2 ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
+                                    }}>Our Services<i className={active2 ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
                                     <div className={active2 ? "deep-dropdown-content open" : "deep-dropdown-content close"}>
-                                        <a href="">deep dropdown 1</a>
-                                        <a href="">deep dropdown 2</a>
-                                        <a href="">deep dropdown 3</a>
+                                        <a href="">Mobile App Development </a>
+                                        <a href="">Software Development </a>
+                                        <a href="">Website Development </a>
                                     </div>
 
                                 </div>
 
-                                <a href="">dropdown 2</a>
-                                <a href="">dropdown 3</a>
-                                <a href="">dropdown 4</a>
+                                <a href="">WordPress Website Development </a>
+                                <a href="">Ecommerce Website Development</a>
+                                <a href="">Website Designing Services</a>
 
                             </div>
 

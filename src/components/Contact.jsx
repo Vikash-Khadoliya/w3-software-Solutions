@@ -26,7 +26,7 @@ export default function Contact() {
                                     <i className='bx bx-map' ></i>
                                     <div className="info">
                                         <h3>Location:</h3>
-                                        <span>A108 Adam Street, New York, NY 535022</span>
+                                        <span>Samrat regidency, Niwaru Rd, near Shri ram marriage garden, Ganesh Nagar Vistar, Jhotwara, Jaipur, Rajasthan 302012</span>
                                     </div>
 
                                 </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                                     <i className='bx bx-envelope' ></i>
                                     <div className="info">
                                         <h3>Email:</h3>
-                                        <span>info@example.com</span>
+                                        <span>info@w3softwaresolutions.com</span>
                                     </div>
 
                                 </div>
@@ -44,7 +44,7 @@ export default function Contact() {
                                     <i className='bx bx-phone' ></i>
                                     <div className="info">
                                         <h3>Call:</h3>
-                                        <span>+1 5589 55488 55s</span>
+                                        <span>+91+7597881864</span>
                                     </div>
 
                                 </div>

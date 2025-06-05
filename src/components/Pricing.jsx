@@ -22,16 +22,16 @@ export default function Pricing() {
                         <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content">
-                                <h4>Free Plan</h4>
-                                <h3><span>$</span>0</h3>
+                                <h4>Basic Plan</h4>
+                                <h3><span>₹</span>0</h3>
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i className='bx bx-x' ></i><del>Pharetra massa massa ultricies</del></li>
-                                    <li><i className='bx bx-x' ></i><del>Massa ultricies mi quis hendrerit</del></li>
+                                    <li><i className='bx bx-check' ></i>Responsive Website Layout</li>
+                                    <li><i className='bx bx-check' ></i>Basic SEO Setup</li>
+                                    <li><i className='bx bx-check' ></i>Contact Form Integration</li>
+                                    <li><i className='bx bx-x' ></i><del>Blog/Portfolio Section</del></li>
+                                    <li><i className='bx bx-x' ></i><del>Custom Domain Setup</del></li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>
@@ -43,16 +43,16 @@ export default function Pricing() {
                         <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content filter">
-                                <h4>Free Plan</h4>
-                                <h3><span>$</span>29</h3>
+                                <h4>Standard Plan</h4>
+                                <h3><span>₹</span>9,99</h3>
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i className='bx bx-check' ></i>Pharetra massa massa ultricies</li>
-                                    <li><i className='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
+                                    <li><i className='bx bx-check' ></i>Everything in Basic</li>
+                                    <li><i className='bx bx-check' ></i>Blog & Portfolio Features</li>
+                                    <li><i className='bx bx-check' ></i>Dynamic CMS Setup (WordPress/React)</li>
+                                    <li><i className='bx bx-check' ></i>Premium Hosting</li>
+                                    <li><i className='bx bx-check' ></i>Dedicated Project Manager</li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>
@@ -64,16 +64,16 @@ export default function Pricing() {
                         <div className="pricing-list-row col-xl-4">
 
                             <div className="price-list-content">
-                                <h4>Free Plan</h4>
-                                <h3><span>$</span>49</h3>
+                                <h4>Premium Plan</h4>
+                                <h3><span>₹</span>19,99</h3>
                                 <span>per month</span>
 
                                 <ul className="price-list-content-includes">
-                                    <li><i className='bx bx-check' ></i>Quam adipiscing vitae proin</li>
-                                    <li><i className='bx bx-check' ></i>Nec feugiat nisl pretium</li>
-                                    <li><i className='bx bx-check' ></i>Nulla at volutpat diam uteera</li>
-                                    <li><i className='bx bx-check' ></i>Pharetra massa massa ultricies</li>
-                                    <li><i className='bx bx-check' ></i>Massa ultricies mi quis hendrerit</li>
+                                    <li><i className='bx bx-check' ></i>Everything in Standard</li>
+                                    <li><i className='bx bx-check' ></i>Custom Web Development (HTML, CSS, JS, React)</li>
+                                    <li><i className='bx bx-check' ></i>Dynamic Admin Panel (CMS with WordPress / Custom Stack)</li>
+                                    <li><i className='bx bx-check' ></i>Software Deployment & Hosting Support</li>
+                                    <li><i className='bx bx-check' ></i>Dedicated Developer Support</li>
                                 </ul>
 
                                 <a href="" className="btn btn-dark">Get Started</a>

@@ -6,24 +6,24 @@ export default function Faq() {
 
     const items = [
         {
-            title: 'Non consectetur a erat nam at lectus urna duis?',
-            content: 'Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.'
+            title: 'What services does W3 Software Solutions offer?',
+            content: 'We offer digital marketing, UI/UX design, CMS & eCommerce development, web development, mobile app development, and custom software solutions..'
         },
         {
-            title: 'Feugiat scelerisque varius morbi enim nunc??',
-            content: 'Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.'
+            title: 'How long does it take to complete a website or app?',
+            content: 'Project timelines vary depending on complexity, but most websites are delivered in 2–4 weeks, and apps in 4–6 weeksi.'
         },
         {
-            title: 'Dolor sit amet consectetur adipiscing elit?',
-            content: 'Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis'
+            title: 'What industries do you serve?',
+            content: 'We serve businesses in education, healthcare, real estate, retail, startups, and more—both in India and globally.'
         },
         {
-            title: 'Dolor sit amet consectetur adipiscing elit?',
-            content: 'Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.'
+            title: 'Do you offer post-launch support and maintenance?',
+            content: 'Yes, we provide ongoing support, updates, and maintenance plans to keep your project running smoothly..'
         },
         {
-            title: 'Dolor sit amet consectetur adipiscing elit?',
-            content: 'Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.'
+            title: 'Can I customize my design or functionality?',
+            content: 'Absolutely! All our solutions are fully customizable to match your business goals and brand identity..'
         },
     ]
 
@@ -49,7 +49,7 @@ export default function Faq() {
                     </div>
 
                     <div className="main-txt">
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>We provide businesses with cutting-edge digital solutions that are customized to meet their specific requirements. Our team is dedicated to providing quality, performance, and customer satisfaction at every stage, from user-friendly websites to sophisticated software systems.</p>
                     </div>
 
                     <div className="faq-list">
