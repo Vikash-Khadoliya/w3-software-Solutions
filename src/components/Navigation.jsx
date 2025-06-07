@@ -49,7 +49,7 @@ export default function Navigation() {
                 <div className="navigation-content d-flex align-items-center justify-content-between">
 
                 <div className="logo">
-                    <img src="/removebg-preview.png" alt="W3 Software Solutions Logo" />
+                    <img src="src/assets/removebg-preview.png" alt="W3 Software Solutions Logo" />
                     </div>
 
 
@@ -67,7 +67,7 @@ export default function Navigation() {
                                 toggle();
                             }}>Technologies <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
-                            <a className="navlist-dropdown-btn">Drop Down <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
+                            <a className="navlist-dropdown-btn">Technologies <i className={active ? "bx bx-chevron-up" : "bx bx-chevron-down"}></i></a>
 
                             <div className={active ? "dropdown-content open" : "dropdown-content close"}>
 

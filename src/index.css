@@ -18,7 +18,7 @@ section {
 .main h2 {
     position: relative;
     font-weight: 700;
-    color: rgba(1, 82, 152);
+    color: #538E09;
     padding: 13px 0;
 }
 
@@ -40,7 +40,7 @@ section {
     left: 50%;
     width: 80px;
     height: 2px;
-    background-color: rgba(1, 82, 152);
+    background-color: #538E09;
     transform: translateX(-50%);
 }
 
@@ -73,7 +73,7 @@ section {
 
 .navlist a,
 .logo h2 {
-    color: #fff !important;
+    color: #000000 !important;
 }
 
 .navlist a {
@@ -86,19 +86,19 @@ section {
 
 .navlist>a:hover,
 .navlist-dropdown:hover>a {
-    color: rgb(99, 181, 253) !important;
+    color: #538E09 !important;
 }
 
 .navlist-btn a {
     padding: 10px 13px;
-    border: 2px solid rgb(8, 138, 252);
+    border: 2px solid rgb(0, 0, 0);
     font-weight: 500;
     border-radius: 50px;
     transition: .3s ease-out;
 }
 
 .navlist-btn a:hover {
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
 }
 
 .navlist-dropdown {
@@ -178,19 +178,19 @@ section {
 }
 
 .hero {
-    background: linear-gradient(to top, rgba(2, 106, 195), rgba(1, 82, 152));
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 255, 255));
     height: 80vh;
 }
 
 .hero-txt h1 {
-    color: #fff;
+    color: #538E09;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 5px;
 }
 
 .hero-txt p {
-    color: #eee;
+    color: #000000;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -208,7 +208,7 @@ section {
     color: #fff;
     text-decoration: none;
     padding: 10px 13px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     box-shadow: -2px 2px 2px rgba(34, 34, 34, .3);
     font-weight: 500;
     border-radius: 50px;
@@ -216,7 +216,7 @@ section {
 }
 
 .hero-btn a:hover:not(.watch-video) {
-    background-color: rgb(7, 121, 221);
+    background-color: rgb(0, 0, 0);
 }
 
 .hero-btn .watch-video {
@@ -236,8 +236,8 @@ section {
 
 
 .hero-btn .watch-video:hover i {
-    border-color: rgb(8, 138, 252);
-    color: rgb(8, 138, 252);
+    border-color: #538E09;
+    color: #538E09;
 }
 
 
@@ -254,7 +254,7 @@ section {
         position: relative;
         width: 30px;
         height: 2px;
-        background-color: #fff;
+        background-color: #0000;
         margin: 5px;
         transition: .3s ease-out;
     }
@@ -359,14 +359,14 @@ section {
     }
 
     .navlist-btn a {
-        color: rgb(8, 138, 252) !important;
+        color: rgb(0, 0, 0) !important;
         width: 100%;
         padding: 10px 16px;
     }
 
     .navlist-btn a:hover {
-        background-color: rgb(8, 138, 252);
-        color: #fff !important;
+        background-color: #538E09;
+        color: #000000 !important;
     }
 
     .navlist-dropdown a i {
@@ -400,7 +400,7 @@ section {
 
 
     .hero-txt h1 {
-        color: #fff;
+        color: #000000;
         font-size: 2.5rem;
     }
 
@@ -570,14 +570,14 @@ section {
 }
 
 .about-txt-content li i {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-size: 1.5rem;
     margin-right: 5px;
 }
 
 .about-btn a {
     display: inline-block;
-    border: 2px solid rgb(8, 138, 252);
+    border: 2px solid #000;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px 2rem;
@@ -586,7 +586,7 @@ section {
 }
 
 .about-btn a:hover {
-    background-color: rgb(8, 138, 252);
+    background-color: rgb(0, 0, 0);
     color: #fff;
 }
 
@@ -602,14 +602,14 @@ section {
 }
 
 .benefits-txt h3 {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-weight: 400;
     font-size: 1.9rem;
 }
 
 .benefits-txt span {
     font-weight: 600;
-    color: rgba(1, 82, 152);
+    color: #538E09;
 }
 
 .benefits-txt p {
@@ -646,12 +646,12 @@ section {
 }
 
 .benefit-list-content-new .benefit-list-header {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 
 .benefit-list-header span {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-size: 1.3rem;
     margin-right: 10px;
 }
@@ -664,11 +664,11 @@ section {
 }
 
 .benefit-list-header:hover {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 .benefit-list-header:hover i {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 
@@ -681,7 +681,7 @@ section {
 }
 
 .skills-txt h3 {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-weight: 400;
     font-size: 1.9rem;
 }
@@ -713,7 +713,7 @@ section {
     height: 10px;
     top: 0;
     left: 0;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
 }
 
 .skill-ratings .skill:nth-child(2) .skill-load::before {
@@ -751,11 +751,11 @@ section {
 }
 
 .service-content:hover>p {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 .service-content i {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-size: 2.5rem;
 }
 
@@ -764,7 +764,7 @@ section {
 }
 
 .service-title h3 {
-    color: rgba(1, 82, 152);
+    color: #538E09;
     font-size: 1.5rem;
 }
 
@@ -815,7 +815,7 @@ section {
 
 .cta-txt-btn a:hover {
     background-color: #fff;
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 /*portfolio section design*/
@@ -954,7 +954,7 @@ section {
 }
 
 .team-social-links a:hover {
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     color: #fff;
 }
 
@@ -989,20 +989,20 @@ section {
     height: 4px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
 }
 
 .price-list-content h4 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: rgba(1, 82, 152);
+    color: #000;
 }
 
 .price-list-content h3 {
     margin-top: 1.3rem;
     display: flex;
     font-size: 4rem;
-    color: rgba(1, 82, 152);
+    color: rgb(0, 0, 0);
 }
 
 .price-list-content h3 span {
@@ -1011,7 +1011,7 @@ section {
 }
 
 .price-list-content>span {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 .price-list-content-includes {
@@ -1037,26 +1037,26 @@ section {
 }
 
 .bx-x {
-    color: #666;
+    color: #538E09;
 }
 
 .price-list-content .btn {
     margin-top: 2rem;
     padding: 14px 2rem;
     background-color: transparent;
-    color: rgb(8, 138, 252);
+    color: #538E09;
     border-radius: 30px;
-    border: 1px solid rgb(8, 138, 252);
+    border: 1px solid #538E09;
     transition: .3s ease-out;
 }
 
 .filter .btn {
-    background-color: rgb(8, 138, 252);
-    color: #fff;
+    background-color: #ffffff;
+    color: #538E09 V;
 }
 
 .price-list-content .btn:hover:not(.filter a) {
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     color: #fff;
 }
 
@@ -1088,12 +1088,12 @@ section {
 }
 
 .faq-list-content-new .faq-list-header {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 
 .faq-list-header span {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-size: 1.3rem;
     margin-right: 10px;
 }
@@ -1108,16 +1108,16 @@ section {
 .faq-list-header span i {
     font-size: 15px;
     padding: 2px;
-    border: 2px solid rgb(8, 138, 252);
+    border: 2px solid #538E09;
     border-radius: 30px;
 }
 
 .faq-list-header:hover {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 .faq-list-header:hover i {
-    color: rgb(8, 138, 252);
+    color: rgb(0, 0, 0);
 }
 
 .faq-list-body {
@@ -1153,7 +1153,7 @@ section {
     height: 4px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
 }
 
 .contact-list-content::after {
@@ -1165,7 +1165,7 @@ section {
     height: 4px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
 }
 
 .contact-list-info {
@@ -1179,7 +1179,7 @@ section {
     font-size: 1.5rem;
     padding: 10px;
     background-color: rgba(8, 138, 252, .1);
-    color: rgb(8, 138, 252);
+    color: #538E09;
     border-radius: 30px;
     margin-right: 1rem;
     transition: .3s ease-out;
@@ -1187,7 +1187,7 @@ section {
 
 .contact-list-info h3 {
     font-size: 1.3rem;
-    color: rgba(1, 82, 152);
+    color: #538E09;
     font-weight: 600;
     line-height: .3;
 }
@@ -1198,7 +1198,7 @@ section {
 }
 
 .contact-list-info:hover i {
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     color: #fff;
 }
 
@@ -1236,7 +1236,7 @@ section {
 .contact-list-form input:focus,
 .contact-list-form textarea:focus {
     border: 1px solid #ddd;
-    outline: 1px solid rgb(8, 138, 252);
+    outline: 1px solid #538E09;
 }
 
 .contact-list-form textarea {
@@ -1251,14 +1251,14 @@ section {
     margin: 1rem 0 0;
     padding: 14px 2rem;
     background-color: transparent;
-    color: rgb(8, 138, 252);
+    color: #538E09;
     border-radius: 30px;
-    border: 1px solid rgb(8, 138, 252);
+    border: 1px solid #538E09;
     transition: .3s ease-out;
 }
 
 .contact-list-content .btn:hover {
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     color: #fff;
 }
 
@@ -1270,7 +1270,7 @@ section {
 
 .newsletter-content h3 {
     font-weight: 600;
-    color: rgba(1, 82, 152);
+    color: #538E09;
     font-size: 1.5rem;
 }
 
@@ -1297,7 +1297,7 @@ section {
 }
 
 .newsletter-input input:focus {
-    outline: 2px solid rgb(8, 138, 252);
+    outline: 2px solid #538E09;
 }
 
 .newsletter-input a {
@@ -1307,14 +1307,14 @@ section {
     transform: translateY(-50%);
     text-decoration: none;
     padding: 10px 20px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     border-radius: 30px;
     color: #fff;
     transition: .3s ease-out;
 }
 
 .newsletter-input a:hover {
-    background-color: rgb(9, 128, 231);
+    background-color: #538E09;
 }
 
 /*links section design*/
@@ -1328,7 +1328,7 @@ section {
 }
 
 .links-list-content h3 {
-    color: rgba(1, 82, 152);
+    color: #538E09;
     font-weight: 600;
     font-size: 2rem;
 }
@@ -1357,7 +1357,7 @@ section {
 
 .links-list-content h4 {
     font-size: 1rem;
-    color: rgba(1, 82, 152);
+    color: #538E09;
     font-weight: 700;
 }
 
@@ -1376,13 +1376,13 @@ section {
 }
 
 .other-links i {
-    color: rgb(8, 138, 252);
+    color: #538E09;
     font-weight: 500;
     margin-right: 5px;
 }
 
 .other-links a:hover {
-    color: rgb(8, 138, 252);
+    color: #538E09;
 }
 
 .links-list-content p {
@@ -1395,7 +1395,7 @@ section {
     text-decoration: none;
     padding: 10px;
     border-radius: 30px;
-    background-color: rgb(8, 138, 252);
+    background-color: #538E09;
     margin-right: 5px;
     transition: .1s ease-out;
 }
@@ -1405,7 +1405,7 @@ section {
 }
 
 .link-social-links a:hover {
-    background-color: rgb(8, 130, 236);
+    background-color: #538E09;
 }
 
 /*footer section design*/
@@ -1424,7 +1424,7 @@ section {
 
 .arrowUp i {
     padding: 10px 13px;
-    background-color: dodgerblue;
+    background-color: #538E09;
     color: #fff;
     border-radius: 50%;
     font-size: 1.2rem;

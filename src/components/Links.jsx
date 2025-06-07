@@ -16,21 +16,15 @@ export default function Links() {
                             <div className="row">
 
                                 <div className="links-list-content col-xl-6">
-                                    <h3>ACE</h3>
+                                    
+                                    <img src="src/assets/IMG_1957-removebg-preview.png" alt="W3 Software Logo" width="150"></img>
+
 
                                     <ul className="address">
-                                        <li>A108 Adam Street</li>
-                                        <li>New York, NY 535022</li>
-                                        <li>United States</li>
-
-                                    </ul><ul className="address">
-                                        <li>Samrat regidency, Niwaru Rd Ganesh </li>
+                                        <li>Samrat regidency, Niwaru Rd Ganes</li>
                                         <li>near Shri ram marriage garden,Nagar Vistar Jhotwara</li>
                                         <li>Jaipur Rajasthan 302012</li>
-                                    </ul>
-                                    <ul className="links-info">
-                                        <li><span>Phone:</span>+1 5589 55488 55</li>
-                                        <li><span>Email:</span>info@w3softwaresolutions.com</li>
+
                                     </ul>
 
                                      <ul className="links-info">
@@ -82,7 +76,7 @@ export default function Links() {
 
                                     <h4>Our Social Networks</h4>
 
-                                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                                    <p>Continue following W3 Software Solutions to learn about the newest advancements in digital innovation, mobile apps, and web development.</p>
 
                                     <div className="link-social-links">
                                         <a href=""><i className='bx bxl-twitter' ></i></a>

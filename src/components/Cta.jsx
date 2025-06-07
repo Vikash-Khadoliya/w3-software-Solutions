@@ -10,7 +10,7 @@ export default function Cta() {
 
                     <h3>Are You Prepared to Boost Your Online Presence?</h3>
                     <div className="cta-txt-btn">
-                        <p>Unlock future-ready, scalable digital solutions for your company by collaborating with W3 Software Solutions. Together, let's create something extraordinary..</p>
+                        <p>Unlock future-ready, scalable digital solutions for your company by collaborating with W3 Software Solutions. Together, lets create something extraordinary..</p>
                         <a href="">Call To Action</a>
                     </div>
 
