@@ -68,7 +68,7 @@ section {
 }
 
 .navigation-bg {
-    background-color: rgba(5, 51, 92, .8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navlist a,
@@ -209,7 +209,7 @@ section {
     text-decoration: none;
     padding: 10px 13px;
     background-color: #538E09;
-    box-shadow: -2px 2px 2px rgba(34, 34, 34, .3);
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
     font-weight: 500;
     border-radius: 50px;
     transition: .3s ease-in;
@@ -278,12 +278,13 @@ section {
         left: 50%;
         transform: translateX(-50%);
         height: 80vh;
-        background-color: #fff;
+        background-color: 
+        #fff;
         flex-direction: column;
         align-items: start !important;
         padding: 2rem 1.5rem;
         border-radius: 8px;
-        box-shadow: -2px 2px 16px rgba(34, 34, 34, .3);
+        box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.3);
         overflow-y: scroll;
         transition: .2s ease-out;
     }
@@ -327,7 +328,7 @@ section {
         width: 100%;
         left: 0;
         padding: 1rem !important;
-        box-shadow: -2px 2px 16px rgba(34, 34, 34, .2);
+        box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.2);
     }
 
     .dropdown-content a:hover {
@@ -577,7 +578,7 @@ section {
 
 .about-btn a {
     display: inline-block;
-    border: 2px solid #000;
+    border: 2px solid #538E09;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px 2rem;
@@ -586,7 +587,7 @@ section {
 }
 
 .about-btn a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: #538E09;
     color: #fff;
 }
 
@@ -693,7 +694,7 @@ section {
 .skill-txt {
     display: flex;
     justify-content: space-between;
-    color: rgba(1, 82, 152);
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 14px;
 }
@@ -740,7 +741,7 @@ section {
 
 .service-content {
     background-color: #fff;
-    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     padding: 2rem;
     cursor: pointer;
     transition: .3s ease-out;
@@ -778,7 +779,7 @@ section {
 
 .cta {
     padding: 120px 100px;
-    background-image: linear-gradient(rgba(1, 82, 152, .8), rgba(1, 82, 152, .8)), url('./assets/cta.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./assets/cta.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -889,7 +890,7 @@ section {
 
 .team-list-content {
     background-color: #fff;
-    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     padding: 2rem;
     cursor: pointer;
     transition: .3s ease-out;
@@ -916,7 +917,7 @@ section {
     font-size: 1.3rem;
     line-height: .3;
     font-weight: 600;
-    color: rgba(1, 82, 152);
+    color: #538E09;
 }
 
 .team-profile span {
@@ -971,7 +972,7 @@ section {
 .price-list-content {
     position: relative;
     background-color: #fff;
-    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     padding: 2rem;
     transition: .3s ease-out;
     border-radius: 8px;
@@ -1137,7 +1138,7 @@ section {
 .contact-list-content {
     position: relative;
     background-color: #fff;
-    box-shadow: 2px 2px 30px rgba(34, 34, 34, .2);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     padding: 2rem 1rem;
     transition: .3s ease-out;
     margin-bottom: 1rem;
@@ -1178,7 +1179,7 @@ section {
 .contact-list-info i {
     font-size: 1.5rem;
     padding: 10px;
-    background-color: rgba(8, 138, 252, .1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #538E09;
     border-radius: 30px;
     margin-right: 1rem;
@@ -1293,7 +1294,7 @@ section {
     font-weight: 300;
     border: none;
     outline: none;
-    box-shadow: -2px 2px 16px rgba(34, 34, 34, .1);
+    box-shadow: -2px 2px 16px rgba(0, 0, 0, 0.1);
 }
 
 .newsletter-input input:focus {

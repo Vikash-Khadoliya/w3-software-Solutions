@@ -6,8 +6,6 @@ import About from "./About";
 import Benefits from "./Benefits";
 import Skills from "./Skills";
 import Services from "./Services";
-import Cta from "./Cta";
-import Portfolio from "./Portfolio";
 import Team from "./Team";
 import Pricing from "./Pricing";
 import Faq from "./Faq";
@@ -52,8 +50,6 @@ export default function MainLayout() {
                 <Benefits />
                 <Skills />
                 <Services />
-                <Cta />
-                <Portfolio />
                 <Team />
                 <Pricing />
                 <Faq />
@@ -66,7 +62,7 @@ export default function MainLayout() {
             <footer>
 
                 <div className={openArrow ? "arrowUp active" : "arrowUp"}>
-                    <a href="#hero"> <i class="uil uil-arrow-up"></i></a>
+                    <a href="#hero"> <i className="uil uil-arrow-up"></i></a>
                 </div>
 
             </footer>

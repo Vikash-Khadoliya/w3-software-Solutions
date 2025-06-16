@@ -1,0 +1,149 @@
+.about {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    overflow: hidden;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main h2 {
+    font-size: 2.5rem;
+    color: #2d3436;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #0984e3;
+    transition: width 0.3s ease;
+}
+
+.main:hover h2::after {
+    width: 100px;
+}
+
+.about-txt-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-txt p {
+    font-size: 1.1rem;
+    color: #636e72;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-txt ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-txt ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #2d3436;
+    cursor: pointer;
+}
+
+.about-txt ul li i {
+    color: #0984e3;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.about-btn p {
+    font-size: 1.1rem;
+    color: #636e72;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #0984e3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(9, 132, 227, 0.2);
+}
+
+.learn-more-btn:hover {
+    background: #74b9ff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(9, 132, 227, 0.3);
+}
+
+@media (max-width: 992px) {
+    .about {
+        padding: 80px 0;
+    }
+
+    .main h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-txt-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-txt ul li {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 60px 0;
+    }
+
+    .main h2 {
+        font-size: 2rem;
+    }
+
+    .about-txt p,
+    .about-btn p {
+        font-size: 1rem;
+    }
+
+    .about-txt ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-content {
+        padding: 0 15px;
+    }
+
+    .main h2 {
+        font-size: 1.8rem;
+    }
+
+    .learn-more-btn {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+} 

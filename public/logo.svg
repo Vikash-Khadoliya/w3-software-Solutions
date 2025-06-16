@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- W3 Text -->
+  <path d="M20 10 L30 40 L40 10 L50 40 L60 10" stroke="#0984e3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Software Solutions Text -->
+  <text x="70" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#2d3436">Software Solutions</text>
+  
+  <!-- Tech Circle -->
+  <circle cx="25" cy="25" r="20" stroke="#0984e3" stroke-width="2" fill="none"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M15 25 L35 25" stroke="#0984e3" stroke-width="2"/>
+  <path d="M25 15 L25 35" stroke="#0984e3" stroke-width="2"/>
+  <circle cx="25" cy="25" r="3" fill="#0984e3"/>
+</svg> 
